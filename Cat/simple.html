@@ -1,0 +1,1021 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ChairWala</title>
+
+  <!-- custom css link -->
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/responsive.css" />
+
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+
+
+  <!-- Fav icon link -->
+  <link rel="shortcut icon" href="../Image/fav icon crown chair.png" type="image/x-icon" />
+
+  <!-- Bootstrap 5 CDN Links -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+  <!-- font awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.js"></script>
+
+
+
+
+
+</head>
+
+<body>
+  <a href="#" id="scroll" style="display: none;"><span></span></a>
+  <section class="m-0">
+    <!-- Navbar  -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand pt-0 mx-0" style="font-size: 0;" href="#">
+          <button class="btn navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+            aria-controls="offcanvasExample">
+            <span class="icon nav-btn"><i class="fa-solid fa-bars" style="color: #156767;"></i></span>
+          </button>
+          <a href="../index.html"><img class="img-fluid logo" src="../Image/logo copy.png" width="200px" alt="" /></a></a>
+
+        <div class="text-right" id="myNavbar">
+          <ul class="nav-ul d-flex flex-nowrap">
+            <li id="search-bar-2" class="nav-item">
+              <span class="search-box">
+                <input type="text" class="search-input" placeholder="search">
+                <a class="search-btn nav-btn" href="#">
+                  <!-- Seach Icon -->
+                  <i class="fas fa-search"></i>
+                </a>
+              </span>
+            </li>
+            <li id="search-bar-1" class="nav-item rinavmt">
+              <span class="input-group">
+                <input class="border" type="search" placeholder="search" id="example-search-input"
+                  style="border-radius: 0.2rem; width: 21rem; padding:0px 1rem;" />
+                <span class="input-group-append">
+                  <button class="btn btn-outline-secondary bg-white border ms-n5" type="button">
+                    <i class="fa fa-search"></i>
+                  </button>
+                </span>
+              </span>
+            </li>
+            <li class="nav-item rinavmt">
+              <button type="button" class="nav-btn" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">
+                <span class="iocn">
+                  <i class="fa-solid fa-user"></i>
+                </span>
+              </button>
+            </li>
+            <li class="nav-item rinavmt">
+              <button class="nav-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight">
+                <span class="iocn">
+                  <i class="fa-regular fa-heart"></i>
+                </span>
+              </button>
+            </li>
+            <li class="nav-item rinavmt">
+              <button class="nav-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight">
+                <span class="iocn">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </span>
+              </button>
+            </li>
+            <li class="nav-item city-menu">
+              <span class="">
+                <form class="" role="search">
+                  <span class="dropdown">
+                    <button id="city-btn" class="btn dropdown-toggle" type="button" id="dropdownMenuButton1"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      <img src="../Image/Background.png" width="20px" alt="" />
+                      Choose Your City
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <li><a class="dropdown-item" href="#">Jodhpur</a></li>
+                      <li><a class="dropdown-item" href="#">Jaipur</a></li>
+                      <li><a class="dropdown-item" href="#">Ghaziabad</a></li>
+                      <li><a class="dropdown-item" href="#">Paschim Vihar</a></li>
+                    </ul>
+                  </span>
+                </form>
+              </span>
+            </li>
+            <li class="nav-item">
+              <span class="dropdown">
+                <button class="nav-btn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  <span class="city-pin icon">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                  </span>
+                </button>
+                <ul class="dropdown-menu l-8rem" aria-labelledby="dropdownMenuButton">
+                  <li><a class="dropdown-item" href="#">Jodhpur</a></li>
+                  <li><a class="dropdown-item" href="#">Jaipur</a></li>
+                  <li><a class="dropdown-item" href="#">Ghaziabad</a></li>
+                  <li><a class="dropdown-item" href="#">Paschim Vihar</a></li>
+                </ul>
+              </span>
+            </li>
+            <li class="nav-item">
+
+            </li>
+            <li class="nav-item">
+
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalToggle" tabindex="-1" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header p-2">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <section class="pt-3 pb-3" id="login">
+              <div class="container text-dark" id="login-box">
+                <div class="justify-content-center align-items-center">
+                  <div class="card bg-white text-dark justify-content-center" style="border-radius: 25px; padding:1rem;">
+                    <h1 class="h1-responsive font-weight-bold text-center mb-4" style="color: #156767;">Login</h1>
+                    <p class="text-black-50 mb-2">
+                      Please enter your login username and password!
+                    </p>
+                    <div id="error"></div>
+                    <div id="sucsess"></div>
+                    <div class="form-outline form-white mb-2">
+                      <input type="email" id="username" class="form-control form-control-lg" />
+                      <label class="form-label" for="username">User Name</label>
+                    </div>
+
+                    <div class="form-outline form-dark mb-2">
+                      <input type="password" id="password" class="form-control form-control-lg" />
+                      <label class="form-label" for="password">Password</label>
+                    </div>
+
+                    <span class="row px-2 justify-content-between">
+                      <p class="col-lg-6 col-md-6 col-sm-6 col-6 d-inline">
+                        <a class="text-black-50" href=""><input type="checkbox" name="" id=""> &nbsp;Remember me</a>
+                      </p>
+                      <p class="col-lg-6 col-md-6 col-sm-6 col-6 d-inline">
+                        <a class="text-black-50" href="">Forgot password?</a>
+                      </p>
+                    </span>
+                    <div class="text-center justify-content-center">
+                      <button class="btn col-md-2 mb-2 text-center" id="btn" type="submit" style="background: #feb820;">
+                        Login
+                      </button>
+                      <div class="text-center">
+                        <p class="mb-3">
+                          Don't have an account?
+                          <button class="fw-bold" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal"
+                            style="background: none; border:none;">Sign Up</button>
+                        </p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+      tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header p-2">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <section class="pt-1" style="padding: 15px;" id="registration">
+              <div class="container card bg-white text-dark" style="border-radius: 25px;">
+                <div class="">
+                  <div class="">
+
+                    <p class="text-center h1 fw-bold mb-4 mx-1 mx-md-4 mt-2" style="color: #156767;">Sign up</p>
+
+                    <form class="mx-1">
+                      <div id="error"></div>
+                      <div id="sucsess"></div>
+
+                      <div class="d-flex flex-row align-items-center mb-2">
+                        <div class="form-outline flex-fill mb-0">
+                          <input type="text" id="form3Example1c" class="form-control" />
+                          <label class="form-label" for="form3Example1c">Your Name</label>
+                        </div>
+                      </div>
+
+                      <div class="d-flex flex-row align-items-center mb-2">
+                        <div class="form-outline flex-fill mb-0">
+                          <input type="email" id="form3Example3c" class="form-control" />
+                          <label class="form-label" for="form3Example3c">Your Email</label>
+                        </div>
+                      </div>
+
+                      <div class="d-flex flex-row align-items-center mb-2">
+                        <div class="form-outline flex-fill mb-0">
+                          <input type="password" id="form3Example4c" class="form-control" />
+                          <label class="form-label" for="form3Example4c">Password</label>
+                        </div>
+                      </div>
+
+                      <div class="d-flex flex-row align-items-center mb-2">
+                        <div class="form-outline flex-fill mb-0">
+                          <input type="password" id="form3Example4cd" class="form-control" />
+                          <label class="form-label" for="form3Example4cd">Conferm password</label>
+                        </div>
+                      </div>
+
+                      <div class="d-flex justify-content-center mb-3">
+                        <label class="form-check-label" for="form2Example3">
+                          Existing user <button class="fw-bold" data-bs-target="#exampleModalToggle"
+                            data-bs-toggle="modal" style="background: none; border:none;">Login</button>
+                        </label>
+                      </div>
+
+                      <div class="d-flex justify-content-center mx-4 mb-2 mb-lg-4">
+                        <button type="button" class="btn px-5" style="background:#feb820">Register</button>
+                      </div>
+
+                    </form>
+
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- right side bar -->
+  <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <div class="dropdown">
+        <a href="#" class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle"
+          data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="fa-solid fa-user rounded-circle mx-3 me-2"></i>
+          <strong>User</strong>
+        </a>
+        <ul class="dropdown-menu text-small shadow">
+          <li><a class="dropdown-item" href="#">Profile</a></li>
+          <li><a class="dropdown-item" href="#">Settings</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="#">Sign out</a></li>
+        </ul>
+      </div>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <nav>
+        <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
+          <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true"><h5>Wish List</h5></button>
+          <button class="nav-link" id="nav-cart-tab" data-bs-toggle="tab" data-bs-target="#nav-cart" type="button" role="tab" aria-controls="nav-cart" aria-selected="false"><h5>Cart</h5></button>
+        </div>
+      </nav>
+      <div class="tab-content p-3 border bg-light" id="nav-tabContent">
+        <div class="tab-pane fade active show text-center" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+          <img class="img-fluid" src="../Image/emptywishlist.png" alt="">
+          <p><strong>oops! your wish list empty</strong></p>
+          <a href="#" class="buttons" data-wow-duration="1.5s" data-wow-delay="1.5s">Start Shopping</a>
+        </div>
+        <div class="tab-pane text-center fade" id="nav-cart" role="tabpanel" aria-labelledby="nav-cart-tab">
+          <img class="img-fluid" src="../Image/Cart.png" alt="">
+          <p><strong>oops! your cart empty</strong></p>
+          <a href="#" class="buttons" data-wow-duration="1.5s" data-wow-delay="1.5s">Add First Product</a>
+        </div>
+      </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+  <!-- exit right side bar -->
+
+  <!-- left side bar  -->
+  <div class="offcanvas offcanvas-start " tabindex="-1" id="offcanvasExample"
+    aria-labelledby="offcanvasExampleLabel">
+    <div class="flex-shrink-0 p-3 left-sidebar-top" >
+      <a href="/" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+        <span class="fs-5 fw-semibold">Browse Categorie</span>
+      </a>
+      <ul class="list-unstyled ps-0">
+        <li class="mb-1">
+          <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+            Director 
+          </button>
+          <div class="collapse show" id="home-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="#" class="link-dark rounded">Director Series 1</a></li>
+              <li><a href="#" class="link-dark rounded">Director Series 2</a></li>
+              <li><a href="#" class="link-dark rounded">Director Series 3</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="mb-1">
+          <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+            Student
+          </button>
+          <div class="collapse" id="dashboard-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="#" class="link-dark rounded">Student Series 1</a></li>
+              <li><a href="#" class="link-dark rounded">Student Series 2</a></li>
+              <li><a href="#" class="link-dark rounded">Student Series 3</a></li>
+              <li><a href="#" class="link-dark rounded">Student Series 4</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="mb-1">
+          <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+            Bar Stool 
+          </button>
+          <div class="collapse" id="orders-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="#" class="link-dark rounded">Bar Stool Series 1</a></li>
+              <li><a href="#" class="link-dark rounded">Bar Stool Series 2</a></li>
+              <li><a href="#" class="link-dark rounded">Bar Stool Series 3</a></li>
+              <li><a href="#" class="link-dark rounded">Bar Stool Series 4</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="mb-1">
+          <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#Visitor-collapse" aria-expanded="false">
+            Visitor 
+          </button>
+          <div class="collapse" id="Visitor-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="#" class="link-dark rounded">Visitor Series 1</a></li>
+              <li><a href="#" class="link-dark rounded">Visitor Series 2</a></li>
+              <li><a href="#" class="link-dark rounded">Visitor Series 3</a></li>
+              <li><a href="#" class="link-dark rounded">Visitor Series 4</a></li>
+            </ul>
+          </div>
+        </li> 
+        <li class="mb-1">
+          <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#sofa-collapse" aria-expanded="false">
+            Sofa 
+          </button>
+          <div class="collapse" id="sofa-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="#" class="link-dark rounded">Sofa Series 1</a></li>
+              <li><a href="#" class="link-dark rounded">Sofa Series 2</a></li>
+              <li><a href="#" class="link-dark rounded">Sofa Series 3</a></li>
+              <li><a href="#" class="link-dark rounded">Sofa Series 4</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="mb-1">
+          <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#gamming-collapse" aria-expanded="false">
+            Gamming 
+          </button>
+          <div class="collapse" id="gamming-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="#" class="link-dark rounded">Gamming Series 1</a></li>
+              <li><a href="#" class="link-dark rounded">Gamming Series 2</a></li>
+              <li><a href="#" class="link-dark rounded">Gamming Series 3</a></li>
+              <li><a href="#" class="link-dark rounded">Gamming Series 4</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="mb-1">
+          <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#cyber-collapse" aria-expanded="false">
+            Cyber 
+          </button>
+          <div class="collapse" id="cyber-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="#" class="link-dark rounded">Cyber Series 1</a></li>
+              <li><a href="#" class="link-dark rounded">Cyber Series 2</a></li>
+              <li><a href="#" class="link-dark rounded">Cyber Series 3</a></li>
+              <li><a href="#" class="link-dark rounded">Cyber Series 4</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+
+
+
+      
+    <div class="dropdown mt-auto">
+      <hr class="">
+      <a href="#" class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle"
+        data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="fa-solid fa-user rounded-circle mx-3 me-2"></i>
+        <strong>User</strong>
+      </a>
+      <ul class="dropdown-menu text-small shadow">
+        <li><a class="dropdown-item" href="#">Settings</a></li>
+        <li><a class="dropdown-item" href="#">Profile</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item" href="#">Sign out</a></li>
+      </ul>
+      <hr>
+    </div>
+  </div>
+  </div>
+  <!-- exit left side bar -->
+
+
+  <!-- Bottom Nav -->
+  <section style="box-shadow: 2px 2px 10px 5px rgba(0,0,0,0.1);">
+      <div class="container p-1" style="width: 100%;">
+        <div class="bottom-nav">
+      <nav class="nav">
+        <li class="Director ">
+          <a class="nav-link fw-bolder" aria-current="page" href="#">Director</a>
+          <div class="mega-menu">
+            <div class="row justify-content-between">
+              <div class="col-lg-2" style="padding: 2rem;">
+                <a class="dropdown-item" href="#">Director Series 1</a>
+                <a class="dropdown-item" href="#">Director Series 2</a>
+                <a class="dropdown-item" href="#">Director Series 3</a>
+              </div>
+              <div class="col-lg-3" style="background-color: #f1f1f1; padding:1.5rem;">
+                <h3>Our Populer Items</h3>
+                <ul style="list-style: none;">
+                  <li><h6>CEO Chairs</h6></li>
+                  <li><h6>Director chair</h6></li>
+                  <li><h6>Student chair</h6></li>
+                  <li><h6>Sofa chair</h6></li>
+                </ul>
+              </div>
+              <div class="col-lg-7">
+                <img class="img-fluid" src="../Image/Office chair with table.jpg" alt="" style="border-radius: 0.3rem;">
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="Director">
+          <a class="nav-link fw-bolder" aria-current="page" href="#">Bar Stool</a>
+          <div class="mega-menu">
+            <div class="row justify-content-between">
+              <div class="col-lg-2" style="padding: 2rem;">
+                <a class="dropdown-item" href="#">Bar Stool Series 1</a>
+                <a class="dropdown-item" href="#">Bar Stool Series 2</a>
+                <a class="dropdown-item" href="#">Bar Stool Series 3</a>
+              </div>
+              <div class="col-lg-3" style="background-color: #f1f1f1; padding:1.5rem;">
+                <h3>Our Populer Items</h3>
+                <ul style="list-style: none;">
+                  <li><h6>CEO Chairs</h6></li>
+                  <li><h6>Director chair</h6></li>
+                  <li><h6>Student chair</h6></li>
+                  <li><h6>Sofa chair</h6></li>
+                </ul>
+              </div>
+              <div class="col-lg-7">
+                <img class="img-fluid" src="../Image/BAR Stool/Bar.jpg" alt="" style="border-radius: 0.3rem;">
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="Director">
+          <a class="nav-link fw-bolder" aria-current="page" href="#">Visitor</a>
+          <div class="mega-menu">
+            <div class="row justify-content-between">
+              <div class="col-lg-2" style="padding: 2rem;">
+                <a class="dropdown-item" href="#">Visitor Series 1</a>
+                <a class="dropdown-item" href="#">Visitor Series 2</a>
+                <a class="dropdown-item" href="#">Visitor Series 3</a>
+              </div>
+              <div class="col-lg-3" style="background-color: #f1f1f1; padding:1.5rem;">
+                <h3>Our Populer Items</h3>
+                <ul style="list-style: none;">
+                  <li><h6>CEO Chairs</h6></li>
+                  <li><h6>Director chair</h6></li>
+                  <li><h6>Student chair</h6></li>
+                  <li><h6>Sofa chair</h6></li>
+                </ul>
+              </div>
+              <div class="col-lg-7">
+                <img class="img-fluid" src="../Image/Visitor/visitor cat.png" alt="" style="border-radius: 0.3rem;">
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="Director">
+          <a class="nav-link fw-bolder" aria-current="page" href="#">Student</a>
+          <div class="container">
+            <div class="mega-menu">
+              <div class="row justify-content-between">
+                <div class="col-lg-2" style="padding: 2rem;">
+                  <a class="dropdown-item" href="#">Student Series 1</a>
+                  <a class="dropdown-item" href="#">Student Series 2</a>
+                  <a class="dropdown-item" href="#">Student Series 3</a>
+                </div>
+                <div class="col-lg-3" style="background-color: #f1f1f1; padding:1.5rem;">
+                  <h3>Our Populer Items</h3>
+                  <ul style="list-style: none;">
+                    <li><h6>CEO Chairs</h6></li>
+                    <li><h6>Director chair</h6></li>
+                    <li><h6>Student chair</h6></li>
+                    <li><h6>Sofa chair</h6></li>
+                  </ul>
+                </div>
+                <div class="col-lg-7">
+                  <img class="img-fluid" src="../Image/offic bg.jpg" alt="" style="border-radius: 0.3rem;">
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="Director">
+          <a class="nav-link fw-bolder" aria-current="page" href="#">Cyber</a>
+          <div class="container">
+            <div class="mega-menu">
+              <div class="row justify-content-between">
+                <div class="col-lg-2" style="padding: 2rem;">
+                  <a class="dropdown-item" href="#">Cyber Series 1</a>
+                  <a class="dropdown-item" href="#">Cyber Series 2</a>
+                  <a class="dropdown-item" href="#">Cyber Series 3</a>
+                </div>
+                <div class="col-lg-3" style="background-color: #f1f1f1; padding:1.5rem;">
+                  <h3>Our Populer Items</h3>
+                <ul style="list-style: none;">
+                  <li><h6>CEO Chairs</h6></li>
+                  <li><h6>Director chair</h6></li>
+                  <li><h6>Student chair</h6></li>
+                  <li><h6>Sofa chair</h6></li>
+                </ul>
+                </div>
+                <div class="col-lg-7">
+                  <img class="img-fluid" src="../Image/BAR Stool/Bar.jpg" alt="" style="border-radius: 0.3rem;">
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="Director">
+          <a class="nav-link fw-bolder" aria-current="page" href="#">Gamming</a>
+          <div class="container">
+            <div class="mega-menu">
+              <div class="row justify-content-between">
+                <div class="col-lg-2" style="padding: 2rem;">
+                  <a class="dropdown-item" href="#">Gamming Series 1</a>
+                  <a class="dropdown-item" href="#">Gamming Series 2</a>
+                  <a class="dropdown-item" href="#">Gamming Series 3</a>
+                </div>
+                <div class="col-lg-3" style="background-color: #f1f1f1; padding:1.5rem;">
+                  <h3>Our Populer Items</h3>
+                <ul style="list-style: none;">
+                  <li><h6>CEO Chairs</h6></li>
+                  <li><h6>Director chair</h6></li>
+                  <li><h6>Student chair</h6></li>
+                  <li><h6>Sofa chair</h6></li>
+                </ul>
+                </div>
+                <div class="col-lg-7">
+                  <img class="img-fluid" src="../Image/BAR Stool/Bar.jpg" alt="" style="border-radius: 0.3rem;">
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </nav>
+
+
+    </div>
+  </div>
+</section>
+  <!-- Bottom nav exit -->
+  <!-- Navbar exit -->
+
+  </section>
+
+  <!-- CEO Chairs collection -->
+  <section id="" class="container-fluid p-4 mb-4">
+
+    <div id="office" class="row justify-content-around text-center">
+
+
+      <div class="row product-grid col-lg-11 col-11">
+
+
+        <div class="col-md-3 col-sm-6">
+          <div class="card p-2 product-card ">
+            <div class="product-img">
+              <a href=""><img class="prod-img img-fluid" src="../Image/Simple stool/1 one.png" width="170px" alt=""></a>
+              <ul class="social">
+                <li><a href=""><i class="fa-solid fa-heart"></i></a></li>
+                <li><a href=""><i class="fa fa-share-alt" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-search" aria-hidden="true"></i></a></li>
+              </ul>
+              <div class="cart-btn" style="left: 32%;">
+                <a href="#" class="btn btn-secondary">Add Cart</a>
+              </div>
+            </div>
+            <div class="card-body m-0 p-1">
+              <h5 class="card-title">Stool</h5>
+              <div class="price h6" style="color: #156767;">
+                &#8377; 4000</div>
+                <div class="ratings">
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star"></i>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="card p-2 product-card">
+
+            <div class="product-img">
+              <a href=""><img class="prod-img img-fluid" src="../Image/Simple stool/1 one.png" width="170px" alt=""></a>
+              <ul class="social">
+                <li><a href=""><i class="fa-solid fa-heart"></i></a></li>
+                <li><a href=""><i class="fa fa-share-alt" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-search" aria-hidden="true"></i></a></li>
+              </ul>
+              <div class="cart-btn" style="left: 32%;">
+                <a href="#" class="btn btn-secondary">Add Cart</a>
+              </div>
+            </div>
+            <div class="card-body m-0 p-1">
+              <h5 class="card-title">Stool</h5>
+              <div class="price h6" style="color: #156767;">
+                &#8377; 4000</div>
+                <div class="ratings">
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="card p-2 product-card">
+
+            <div class="product-img">
+              <a href=""><img class="prod-img img-fluid" src="../Image/Simple stool/1 one.png" width="170px" alt=""></a>
+              <ul class="social">
+                <li><a href=""><i class="fa-solid fa-heart"></i></a></li>
+                <li><a href=""><i class="fa fa-share-alt" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-search" aria-hidden="true"></i></a></li>
+              </ul>
+              <div class="cart-btn" style="left: 32%;">
+                <a href="#" class="btn btn-secondary">Add Cart</a>
+              </div>
+            </div>
+            <div class="card-body m-0 p-1">
+              <h5 class="card-title">Stool</h5>
+              <div class="price h6" style="color: #156767;">
+                &#8377; 4000</div>
+                <div class="ratings">
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-3 col-sm-6">
+          <div class="card p-2 product-card">
+
+            <div class="product-img">
+              <a href=""><img class="prod-img img-fluid" src="../Image/Simple stool/1 one.png" width="170px" alt=""></a>
+              <ul class="social">
+                <li><a href=""><i class="fa-solid fa-heart"></i></a></li>
+                <li><a href=""><i class="fa fa-share-alt" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-search" aria-hidden="true"></i></a></li>
+              </ul>
+              <div class="cart-btn" style="left: 32%;">
+                <a href="#" class="btn btn-secondary">Add Cart</a>
+              </div>
+            </div>
+            <div class="card-body m-0 p-1">
+              <h5 class="card-title">Stool</h5>
+              <div class="price h6" style="color: #156767;">
+                &#8377; 4000</div>
+                <div class="ratings">
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row product-grid col-lg-11 col-11">
+
+
+        <div class="col-md-3 col-sm-6">
+          <div class="card p-2 product-card ">
+            <div class="product-img">
+              <a href=""><img class="prod-img img-fluid" src="../Image/Simple stool/1 one.png" width="170px" alt=""></a>
+              <ul class="social">
+                <li><a href=""><i class="fa-solid fa-heart"></i></a></li>
+                <li><a href=""><i class="fa fa-share-alt" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-search" aria-hidden="true"></i></a></li>
+              </ul>
+              <div class="cart-btn" style="left: 32%;">
+                <a href="#" class="btn btn-secondary">Add Cart</a>
+              </div>
+            </div>
+            <div class="card-body m-0 p-1">
+              <h5 class="card-title">Stool</h5>
+              <div class="price h6" style="color: #156767;">
+                &#8377; 4000</div>
+                <div class="ratings">
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star"></i>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="card p-2 product-card">
+
+            <div class="product-img">
+              <a href=""><img class="prod-img img-fluid" src="../Image/Simple stool/1 one.png" width="170px" alt=""></a>
+              <ul class="social">
+                <li><a href=""><i class="fa-solid fa-heart"></i></a></li>
+                <li><a href=""><i class="fa fa-share-alt" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-search" aria-hidden="true"></i></a></li>
+              </ul>
+              <div class="cart-btn" style="left: 32%;">
+                <a href="#" class="btn btn-secondary">Add Cart</a>
+              </div>
+            </div>
+            <div class="card-body m-0 p-1">
+              <h5 class="card-title">Stool</h5>
+              <div class="price h6" style="color: #156767;">
+                &#8377; 4000</div>
+                <div class="ratings">
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="card p-2 product-card">
+
+            <div class="product-img">
+              <a href=""><img class="prod-img img-fluid" src="../Image/Simple stool/1 one.png" width="170px" alt=""></a>
+              <ul class="social">
+                <li><a href=""><i class="fa-solid fa-heart"></i></a></li>
+                <li><a href=""><i class="fa fa-share-alt" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-search" aria-hidden="true"></i></a></li>
+              </ul>
+              <div class="cart-btn" style="left: 32%;">
+                <a href="#" class="btn btn-secondary">Add Cart</a>
+              </div>
+            </div>
+            <div class="card-body m-0 p-1">
+              <h5 class="card-title">Stool</h5>
+              <div class="price h6" style="color: #156767;">
+                &#8377; 4000</div>
+                <div class="ratings">
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-3 col-sm-6">
+          <div class="card p-2 product-card">
+
+            <div class="product-img">
+              <a href=""><img class="prod-img img-fluid" src="../Image/Simple stool/1 one.png" width="170px" alt=""></a>
+              <ul class="social">
+                <li><a href=""><i class="fa-solid fa-heart"></i></a></li>
+                <li><a href=""><i class="fa fa-share-alt" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-search" aria-hidden="true"></i></a></li>
+              </ul>
+              <div class="cart-btn" style="left: 32%;">
+                <a href="#" class="btn btn-secondary">Add Cart</a>
+              </div>
+            </div>
+            <div class="card-body m-0 p-1">
+              <h5 class="card-title">Stool</h5>
+              <div class="price h6" style="color: #156767;">
+                &#8377; 4000</div>
+                <div class="ratings">
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       
+    
+    </div>
+
+
+
+
+
+  </section>
+  <hr>
+  <!-- footer section -->
+  <section id="footer">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h1 style="color: #156767;"> Contact Us </h1>
+      </div>
+      <div class="row justify-content-center">
+
+        <div class="col-lg-3 col-md-6 col-11">
+          <h4 style="font-family: 'Rajdhani', sans-serif;" >
+            About Crown Chair
+          </h4>
+          <ul>
+            <li>About Us</li>
+            <li>Privacy Policy</li>
+            <li>Refunds and Cancellations</li>
+            <li>Terms and Conditions</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 col-11">
+          <h4 style="font-family: 'Rajdhani', sans-serif;">Store Address</h4>
+          <ul>
+            <li>Shop No. 6, Real Square Mall</li>
+            <li>Sector - 3, Vasundhara,</li>
+            <li>Ghaziabad, UP - 201012.</li>
+          </ul>
+
+          <div class="mt-2">
+            <h5 style="font-family: 'Rajdhani', sans-serif; padding-left: 12px;">In New Delhi</h5>
+            <ul>
+              <li>A-2/72, Paschim Vihar</li>
+              <li>New Delhi,</li>
+              <li>Delhi - 110063.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-11">
+          <h4 style="font-family: 'Rajdhani', sans-serif;">Get in Touch</h4>
+          <ul>
+            <li><i class="fa-solid fa-phone"></i> &nbsp; 8860161980, 98734 93720</li>
+            <li><i class="fa-solid fa-square-envelope"></i> &nbsp; support@crownchair.com</li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 col-11">
+          <h4 style="font-family: 'Rajdhani', sans-serif;">Follow Us on</h4>
+          <ul>
+            <li><i class="fa-brands fa-facebook"></i> &nbsp; Facbook</li>
+            <li><i class="fa-brands fa-twitter"></i> &nbsp; Twitter</li>
+            <li><i class="fa-brands fa-square-instagram"></i> &nbsp; Instagram</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="" style="background-color: #156767;">
+      <div class="container text-center pt-2 pb-2" style="color: #fff;">
+        <p class="m-0 p-0">All copyright reserved	&#169;</p>
+      </div>
+    </div>
+  </section>
+</body>
+
+<script>
+  var i = 5;
+  function start() {
+    for (let i = 0; i < 5; i++) {
+      console.log("inner", i);
+    }
+    console.log(i);
+  };
+</script>
+
+<script>
+  const myModal = document.getElementById('myModal')
+  const myInput = document.getElementById('myInput')
+
+  myModal.addEventListener('shown.bs.modal', () => {
+    myInput.focus()
+  })
+</script>
+
+
+
+<!-- <script src="js/jquery.js"></script>        
+<script src="js/bootstrap.js"></script> -->
+
+
+<!-- Bootstrap 5 JS CDN Links -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
+<script>
+  window.onscroll = function () {
+    console.log("scrolling");
+  };
+</script>
+
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+
+
+<script>
+  $('.counter-count').each(function () {
+    $(this).prop('Counter', 0).animate({
+      Counter: $(this).text()
+    }, {
+
+      //chnage count up speed here
+      duration: 10000,
+      easing: 'swing',
+      step: function (now) {
+        $(this).text(Math.ceil(now));
+      }
+    });
+  });
+</script>
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+
+<!-- Custom Js link -->
+<script src="../JS/js.js"></script>
+
+
+
+</html>
+
+<!-- Banquet
+Bar Stool
+Bard Stool Series 1
+Bard Stool Series 2
+Bard Stool Series 3
+Bard Stool Series 4
+CEO
+Cyber
+Cyber Series 1
+Cyber Series 2
+Director
+Director Series 1
+Director Series 2
+Director Series 3
+Gaming
+Mesh
+Restaurent
+Simple Stool
+Sofa
+Steel Sofa
+Student
+Visiter 
+-->

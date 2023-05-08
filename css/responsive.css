@@ -1,0 +1,731 @@
+@media screen and (max-width: 279px)
+{
+    .cat-title1{
+        display: none;
+    }
+    #search-bar-1{
+        display: none;
+    }
+    .bottom-nav{
+        display: none;
+    } 
+    .city-menu{
+        display: none;
+    }
+    
+    .cart-and-wish1 .nav-btn{
+        font-size: 0.7rem !important;
+    }
+    .logo{
+        width: 6rem;
+    }
+    .navbar-brand button{
+        padding: 0%;
+    }
+    .navbar-brand{
+        max-width: 50%;
+    }
+    .navbar-brand button{
+        padding: 0%;
+    }
+    .navbar-brand img{
+        max-width: 85%;
+    }
+    .navbar-brand{
+        max-width: 50%;
+    }
+    #myNavbar{
+        max-width: 50%;
+    }
+    .nav-btn{
+        font-size: 0.8rem;
+        padding-left: 0%;
+    }
+    .nav-ul{
+        align-items: center;
+    }
+    .search-btn{
+        width: 20px;
+    }
+    .search-input{
+        position: absolute;
+        right: 50%;
+    }
+    ul.nav-ul li span {
+        padding-left: 0px !important;
+        padding-right: 2px !important;
+    }
+
+    #office h1 {
+        font-size: 1.7rem;
+        height: 8.3rem;
+    }
+    .product-grid{
+        padding-left: 0% !important; 
+        padding-right: 0% !important;
+    }
+    .main-heading{
+        font-weight: bolder;
+        font-size: 2rem !important;
+    }
+    .banner_wrapper .swiper .swiper-wrapper .swiper-slide{
+        height: 13rem;
+    }
+    .banner_wrapper .swiper .slide-caption {
+        margin-top: -1rem !important;
+        margin-left: 2rem;
+    }
+    .banner_wrapper .swiper .slide-caption h3{
+        font-size: 1rem;
+        margin-bottom: 0%;
+    }
+    .banner_wrapper .swiper .slide-caption h1{
+        font-size: 1.7rem;
+        margin-bottom: 0%;
+    }
+    
+    .banner_wrapper .swiper .slide-caption p {
+        max-width: 5rem;
+    }
+    .main-btn {
+        font-size: 0.5rem;
+        font-weight: 350;
+        line-height: 0.3rem;
+        padding: .2rem 0.4rem;
+    }
+     
+    #indicator{
+        bottom: 44rem;
+    }
+    .banner_wrapper .swiper-pagination-bullets .swiper-pagination-bullet{
+        width: 0.5rem;
+        height: 0.5rem;
+    }
+    #footer h1{
+        font-size: 2.5rem;
+    }
+    #footer ul{
+        padding-left: 10px;
+    }
+    #footer li{
+        font-size: 0.9rem;
+    }
+    #footer li h5{
+        font-size: 1.2rem;
+    }
+    #footer h4{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 280px) and (max-width: 320px)
+{
+    p{
+        font-size: 0.8rem;
+    }
+    h1{
+        font-size: 5rem;
+    }
+    label{
+        font-size: 0.8rem;
+    }
+    #search-bar-1{
+        display: none;
+    }  
+    .cat-title1{
+        display: none;
+    }
+    .bottom-nav{
+        display: none;
+    }
+    .city-menu{
+        display: none;
+    }
+    .logo{
+        width: 8.5rem;
+    }
+    .nav-btn{
+        font-size: 0.8rem;
+        padding-left: 0%;
+    }
+    .navbar-brand button{
+        padding: 0%;
+    }
+    .navbar-brand img{
+        max-width: 85%;
+    }
+    .navbar-brand{
+        max-width: 50%;
+    }
+    #myNavbar{
+        max-width: 50%;
+    }
+    .nav-ul{
+        align-items: center;
+    }
+    .search-btn{
+        width: 20px;
+    }
+    .search-input{
+        position: absolute;
+        right: 47%;
+    }
+    .cart-and-wish2{
+        display: none;
+    }
+    .cart-and-wish1 .nav-btn{
+        font-size: 1rem !important;
+    }
+    .main-heading{
+        font-weight: bolder;
+        font-size: 2rem !important;
+    }
+
+    .modal{
+        top: 12% !important;
+        left: 9% !important;
+        width: 82% !important;
+    }
+    .modal-body{
+        margin: 0% !important;
+        padding: 0% !important;
+    }
+    .modal-body .card{
+        margin: 0% !important;
+        padding: 2% !important;
+    }
+    .modal-body .card p{
+        font-size: 0.8rem !important;
+    }
+    .modal-body .card span p{
+        padding: 1% !important;
+    }
+    .modal-body .card .form-control{
+        font-size: 1rem;
+    }
+    .modal-body .card .form-outline{
+        margin-bottom: 2px !important;
+    }
+
+
+
+
+    .banner_wrapper .swiper .swiper-wrapper .swiper-slide{
+        height: 15rem;
+    }
+    .banner_wrapper .swiper .slide-caption {
+        margin-left: 1.3rem;
+    }
+    .banner_wrapper .swiper .slide-caption h3{
+        font-size: 1rem;
+        margin-bottom: 0%;
+    }
+    .banner_wrapper .swiper .slide-caption h1{
+        font-size: 2rem;
+        margin-bottom: 0%;
+    }
+    
+    .banner_wrapper .swiper .slide-caption p {
+        max-width: 5rem;
+    }
+    .main-btn {
+        font-size: 0.8rem;
+        font-weight: 400;
+        line-height: 0.3rem;
+        padding: .375rem 0.5rem;
+    }
+    #indicator{
+        bottom: 41.8rem;
+    }
+    .banner_wrapper .swiper-pagination-bullets .swiper-pagination-bullet{
+        width: 0.7rem;
+        height: 0.7rem;
+    }
+
+    .home-bottom {
+        margin-top: 0px;
+    }
+    #office h1 {
+        font-size: 2rem;
+    }
+    .product-grid{
+        padding-left: 1rem !important; 
+        padding-right: 1rem !important;
+    }
+
+}
+@media screen and (min-width: 319px) and (max-width: 320px)
+{ 
+    #indicator{
+        bottom: 39.5rem !important;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px)
+{ 
+    .cat-title1{
+        display: none;
+    }
+    #search-bar-1{
+        display: none;
+    } 
+    .bottom-nav{
+        display: none;
+    }
+    .city-menu{
+        display: none;
+    }
+    .offcanvas-end{
+        width: 75% !important;
+    }
+
+
+    .modal{
+        top: 12% !important;
+        left: 9% !important;
+        width: 82% !important;
+    }
+    .modal-body{
+        margin: 0% !important;
+        padding: 0% !important;
+    }
+    .modal-body .card{
+        margin: 0% !important;
+        padding: 2% !important;
+    }
+    .modal-body .card p{
+        font-size: 0.8rem !important;
+    }
+    .modal-body .card span p{
+        padding: 1% !important;
+    }
+    .modal-body .card .form-control{
+        font-size: 1rem;
+    }
+    .modal-body .card .form-outline{
+        margin-bottom: 2px !important;
+    }
+
+    .offcanvas-start{
+        width: 75% !important;
+    }
+    .logo{
+        width: 9rem;
+    }
+    .nav-btn{
+        font-size: 1rem;
+        padding-left: 1%;
+    }
+    .navbar-brand button{
+        padding: 0%;
+    }
+    .navbar-brand img{
+        max-width: 85%;
+    }
+    .navbar-brand{
+        max-width: 50%;
+    }
+    #myNavbar{
+        max-width: 50%;
+    }
+    .search-input{
+        position: absolute;
+        right: 45%;
+    }
+    .search-btn{
+        height: 28px !important;
+    }
+    .main-heading{
+        font-weight: bolder;
+        font-size: 2.3rem !important;
+    }
+    .banner_wrapper .swiper .swiper-wrapper .swiper-slide{
+        height: 16rem;
+    }
+    .banner_wrapper .swiper .slide-caption {
+        margin-left: 1.7rem;
+    }
+    .banner_wrapper .swiper .slide-caption h3{
+        font-size: 1.1rem;
+        margin-bottom: 0%;
+    }
+    .banner_wrapper .swiper .slide-caption h1{
+        font-size: 2.2rem;
+        margin-bottom: 0%;
+    }
+    
+    .banner_wrapper .swiper .slide-caption p {
+        max-width: 5rem;
+    }
+    .main-btn {
+        font-size: 0.8rem;
+        font-weight: 400;
+        line-height: 0.3rem;
+        padding: .375rem 0.5rem;
+    }
+    #indicator{
+        bottom: 38.5rem;
+    }
+    .banner_wrapper .swiper-pagination-bullets .swiper-pagination-bullet{
+        width: 0.8rem;
+        height: 0.8rem;
+    }
+    .home-bottom {
+        margin-top: 0px;
+    }
+    #office h1 {
+        font-size: 2rem;
+    }
+    .product-grid{
+        padding-left: 1rem !important; 
+        padding-right: 1rem !important;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 575px)
+{
+    #search-bar-1{
+        display: none;
+    }    
+    .cat-title1{
+        display: none;
+    }
+    .bottom-nav{
+        display: none;
+    }
+    .city-menu{
+        display: none;
+    }
+    .logo{
+        width: 11rem;
+    }
+    .nav-btn{
+        font-size: 1.4rem;
+        padding-left: 0%;
+    }
+    .search-input{
+        position: absolute;
+        right: 43%;
+    }
+    .main-heading{
+        font-weight: bolder;
+        font-size: 50px;
+    }
+
+
+    .modal{
+        top: 12% !important;
+        left: 9% !important;
+        width: 82% !important;
+    }
+    .modal-body{
+        margin: 0% !important;
+        padding: 0% !important;
+    }
+    .modal-body .card{
+        margin: 0% !important;
+        padding: 2% !important;
+    }
+    .modal-body .card p{
+        font-size: 0.8rem !important;
+    }
+    .modal-body .card span p{
+        padding: 1% !important;
+    }
+    .modal-body .card .form-control{
+        font-size: 1rem;
+    }
+    .modal-body .card .form-outline{
+        margin-bottom: 2px !important;
+    }
+
+
+
+    .banner_wrapper .swiper .swiper-wrapper .swiper-slide{
+        height: 18rem;
+    }
+    .banner_wrapper .swiper .slide-caption {
+        margin-left: 3rem;
+    }
+    .banner_wrapper .swiper .slide-caption h3{
+        font-size: 1.5rem;
+        margin-bottom: 0%;
+    }
+    .banner_wrapper .swiper .slide-caption h1{
+        font-size: 2.8rem;
+        margin-bottom: 0%;
+    }
+    
+    .banner_wrapper .swiper .slide-caption p {
+        max-width: 5rem;
+    }
+    .main-btn {
+        font-size: 0.9rem;
+        font-weight: 400;
+        line-height: 0.4rem;
+        padding: .475rem 0.6rem;
+    }
+    #indicator{
+        bottom: 38.6rem;
+    }
+    .home-bottom {
+        margin-top: 0px;
+    }
+    #office h1 {
+        font-size: 2rem;
+    }
+    .product-grid{
+        padding-left: 1rem !important; 
+        padding-right: 1rem !important;
+    }
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px)
+{
+    #search-bar-1{
+        display: none;
+    }   
+    .cat-title1{
+        display: none;
+    }
+    .bottom-nav{
+        display: none;
+    }
+    .city-menu{
+        display: none;
+    }
+    .nav-btn{
+        font-size: 1.7rem;
+        /* padding-left: 0%; */
+    }
+    .search-input{
+        position: absolute;
+        right: 47%;
+    }
+    .main-heading{
+        font-weight: bolder;
+        font-size: 50px;
+    }
+    .banner_wrapper .swiper .swiper-wrapper .swiper-slide{
+        height: 20rem;
+    }
+    .banner_wrapper .swiper .slide-caption {
+        margin-left: 4rem;
+    }
+    .banner_wrapper .swiper .slide-caption h3{
+        font-size: 1.4rem;
+        margin-bottom: 5%;
+    }
+    .banner_wrapper .swiper .slide-caption h1{
+        font-size: 3rem;
+        margin-bottom: 0%;
+    }
+    
+    .banner_wrapper .swiper .slide-caption p {
+        max-width: 5rem;
+    }
+    .main-btn {
+        font-size: 1rem;
+        font-weight: 450;
+        line-height: 0.3rem;
+        padding: .575rem 0.7rem;
+    }
+    #indicator{
+        bottom: 23rem;
+    }
+    .home-bottom {
+        margin-top: 0px;
+    }
+    #office h1 {
+        font-size: 2rem;
+    }
+    .product-grid{
+        padding-left: 1rem !important; 
+        padding-right: 1rem !important;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px)
+{
+    #search-bar-1{
+        display: none;
+    }   
+    .cat-title1{
+        display: none;
+    }
+    .bottom-nav{
+        display: none;
+    }
+    .city-menu{
+        display: none;
+    }
+    .nav-btn{
+        font-size: 1.7rem;
+        /* padding-left: 0.2%; */
+    }
+    .main-heading{
+        font-weight: bolder;
+        font-size: 50px;
+    }
+    .banner_wrapper .swiper .swiper-wrapper .swiper-slide{
+        height: 22rem;
+    }
+    .banner_wrapper .swiper .slide-caption {
+        margin-left: 7rem;
+    }
+    .banner_wrapper .swiper .slide-caption h3{
+        font-size: 1.7rem;
+        margin-bottom: 0%;
+    }
+    .banner_wrapper .swiper .slide-caption h1{
+        font-size: 4rem;
+        margin-bottom: 0%;
+    }
+    
+    .banner_wrapper .swiper .slide-caption p {
+        max-width: 5rem;
+    }
+    .main-btn {
+        font-size: 0.9rem;
+        font-weight: 600;
+        line-height: 0.7rem;
+        padding: .475rem 1rem;
+    }
+    #indicator{
+        bottom: 22rem;
+    }
+    .home-bottom {
+        margin-top: 0px;
+    }
+    #office h1 {
+        font-size: 2.5rem;
+    }
+    .product-grid{
+        padding-left: 1rem !important; 
+        padding-right: 1rem !important;
+    }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px)
+{    
+    .main-heading{
+        font-weight: bolder;
+        font-size: 50px;
+    }
+    .banner_wrapper .swiper .swiper-wrapper .swiper-slide{
+        height: 24rem;
+    }
+    .banner_wrapper .swiper .slide-caption {
+        margin-left: 10rem;
+    }
+    .banner_wrapper .swiper .slide-caption h3{
+        font-size: 0.5rem;
+        margin-bottom: 2%;
+    }
+    .banner_wrapper .swiper .slide-caption h1{
+        font-size: 5rem;
+        margin-bottom: 0%;
+    }
+    
+    .banner_wrapper .swiper .slide-caption p {
+        max-width: 5rem;
+    }
+    .main-btn {
+        font-size: 1.1rem;
+        font-weight: 500;
+        line-height: 0.8rem;
+        padding: .475rem 0.7rem;
+    }
+    #indicator{
+        bottom: 14rem;
+    }
+    .home-bottom {
+        margin-top: -0.4rem;
+    }
+    #office h1 {
+        font-size: 2.5rem;
+    }
+    .product-grid{
+        padding-left: 1rem !important; 
+        padding-right: 1rem !important;
+    }
+
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px)
+{   
+    .main-heading{
+        font-weight: bolder;
+        font-size: 50px;
+    }
+    .banner_wrapper .swiper .swiper-wrapper .swiper-slide{
+        height: 18rem;
+    }
+    .banner_wrapper .swiper .slide-caption {
+        margin-left: 2rem;
+    }
+    .banner_wrapper .swiper .slide-caption h3{
+        font-size: 1rem !important;
+        margin-bottom: 0%;
+    }
+    .banner_wrapper .swiper .slide-caption h1{
+        font-size: 2.5rem;
+        margin-bottom: 0%;
+    }
+    
+    .banner_wrapper .swiper .slide-caption p {
+        max-width: 5rem;
+    }
+    .main-btn {
+        font-size: 0.8rem;
+        font-weight: 400;
+        line-height: 0.3rem;
+        padding: .375rem 0.5rem;
+    }
+    #indicator{
+        bottom: 14rem;
+    }
+    .home-bottom {
+        margin-top: 0px;
+    }
+    #office h1 {
+        font-size: 2rem;
+    }
+    .product-grid{
+        padding-left: 1rem !important; 
+        padding-right: 1rem !important;
+    }
+
+}
+
+
+
+@media screen and (min-width: 991px)
+{
+    .cat-title2{
+        display: none;
+    }
+    #search-bar-2{
+        display: none;
+    }
+    .city-pin{
+        display: none;
+    }
+    .rinavmt{
+        margin-top: 1.4rem;
+    }
+
+}
+
+
+/* 
+320px — 480px: Mobile devices.
+481px — 768px: iPads, Tablets.
+769px — 1024px: Small screens, laptops.
+1025px — 1200px: Desktops, large screens.
+1201px and more
+ */
